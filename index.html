@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windchill</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>⭐Windchill</h1>
+    <label for="measurement">Measurement system: </label>
+    <select id="measurement" class="formElements">
+      <option value="metric">Metric</option>
+      <option value="english">English</option>
+    </select>
+    <br />
+    <label for="temperature">Actual temperature: </label>
+    <input type="number" id="temperature" class="formElements" /> <br />
+    <label for="wind">Wind speed: </label>
+    <input type="number" id="wind" class="formElements" /> <br />
+    <button id="calculate" class="formElements">Calculate</button>
+    <div id="result"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
